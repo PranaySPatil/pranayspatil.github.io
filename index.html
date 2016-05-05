@@ -553,9 +553,9 @@
             <!-- Avatar -->
             <!-- <img src="assets/img/photos/it-avatar-96x96.jpg" alt="..." class="img-circle margin-b-30"> -->
             <img width="96" height="96" bg-color="#ffffff" src="assets/img/photos/comps-avatar2.png" alt="..." class="img-circle margin-b-30">
-            <h3>Please fill the <strong>form</strong> - I will response as fast as I can!</h3>
+            <h3>Please fill the <strong>form</strong> - I will response as fast as I can!!</h3>
             <!-- Contact Form -->
-            <form id="contact-form">
+            <form name="contact-form" id="contactform" action="assets/php/contact-form.php" method="POST">
                 <div class="form-alert"></div>
                 <div class="form-error alert alert-default"><ul></ul></div>
                 <div class="form-group">
@@ -570,7 +570,7 @@
                     <label>Message:</label>
                     <textarea id="message" class="form-control" name="message" rows="4"></textarea>
                 </div>
-                <button type="submit" class="btn btn-secondary"><span>Send a message!</span><i class="ti-email"></i></button>
+                <button type="submit" class="btn btn-secondary" name="submit"><span>Send a message!</span><i class="ti-email"></i></button>
             </form>
         </div>
     </div>
